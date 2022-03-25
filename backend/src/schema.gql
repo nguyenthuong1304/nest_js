@@ -1,0 +1,37 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type CategoryDTO {
+  id: String
+  name: String
+  slug: String
+}
+
+type Query {
+  categories: [CategoryDTO!]!
+  category(id: String!): CategoryDTO!
+}
+
+type Mutation {
+  createCategory(createCategoryInput: CreateCategoryInput!): CategoryDTO!
+  updateCategory(updateCategoryInput: UpdateCategoryInput!): CategoryDTO!
+  removeCategory(id: String!): CategoryDTO!
+}
+
+input CreateCategoryInput {
+  """Example field (placeholder)"""
+  name: String!
+
+  """Example field (placeholder)"""
+  slug: String!
+}
+
+input UpdateCategoryInput {
+  """Example field (placeholder)"""
+  name: String
+
+  """Example field (placeholder)"""
+  slug: String
+  id: String!
+}

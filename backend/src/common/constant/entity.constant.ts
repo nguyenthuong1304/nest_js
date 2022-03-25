@@ -1,0 +1,18 @@
+export const EntityConstant = {
+  ShortLength: 255,
+  LongLength: 2000,
+  MaxLongLength: 10000,
+  ShortEncodeLength: 512,
+  DefaultInteger: 0,
+  MinEnum: 0,
+  TimePrecision: 3,
+  TimestampFormat: 'YYYY-MM-DD HH:mm:ss.SSS',
+  TimestampFormatSecond: 'YYYY/MM/DD HH:mm:ss.SSS',
+  DateFormat: 'YYYY-MM-DD',
+  DateFormatSecond: 'YYYY/MM/DD',
+  TimeFormat: 'HH:mm:ss',
+  PgTimestampFormat: 'YYYY-MM-DD HH24:MI:ss.ms',
+  ArrayMinSize: 1,
+  ArrayMaxSize: 100,
+  MaxAnswerSize: 4,
+};
